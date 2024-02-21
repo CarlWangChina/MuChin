@@ -1,0 +1,122 @@
+model:
+
+  music2vec_s0:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/music2vec/model/s0"  # 指定模型保存路径  
+    device: "cuda:4"
+    dataset_index: "/home/feee/model-5-test/datas/s0_ans_token.txt"
+    loss_path: "/home/feee/model-5-test/loss/music2vec-s0.txt"
+    output_len: 14162
+    batch_size: 1024
+    dataset:
+      - {src: "/nfs/datasets-mp3/", tgt: "/nfs/music-5-test/music2vec/encode/"}
+      - {src: "_src.mp3", tgt: "_src.pkl"}
+
+  music2vec_s1:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/music2vec/model/s1"  # 指定模型保存路径  
+    device: "cuda:5"
+    dataset_index: "/home/feee/model-5-test/datas/s1_ans_token.txt"
+    loss_path: "/home/feee/model-5-test/loss/music2vec-s1.txt"
+    output_len: 9691
+    batch_size: 1024
+    dataset:
+      - {src: "/nfs/datasets-mp3/", tgt: "/nfs/music-5-test/music2vec/encode/"}
+      - {src: "_src.mp3", tgt: "_src.pkl"}
+
+  mert330_s0:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/mert300/model/s0"  # 指定模型保存路径  
+    device: "cuda:3"
+    dataset_index: "/home/feee/model-5-test/datas/s0_ans_token.txt"
+    dataset_pt: "/nfs/music-5-test/mert300/encode/"
+    loss_path: "/home/feee/model-5-test/loss/mert-330-s0.txt"
+    output_len: 14162
+    batch_size: 1024
+    dataset: 
+      - {src: "_src.mp3", tgt: "_mert.pt"}
+  
+  mert330_s1:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/mert300/model/s1"  # 指定模型保存路径  
+    device: "cuda:2"
+    dataset_index: "/home/feee/model-5-test/datas/s1_ans_token.txt"
+    dataset_pt: "/nfs/music-5-test/mert300/encode/"
+    loss_path: "/home/feee/model-5-test/loss/mert-330-s1.txt"
+    output_len: 9691
+    batch_size: 1024
+    dataset: 
+      - {src: "_src.mp3", tgt: "_mert.pt"}
+
+  mert95_s0:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/mert95/model/s0"  # 指定模型保存路径  
+    device: "cuda:0"
+    dataset_index: "/home/feee/model-5-test/datas/s0_ans_token.txt"
+    dataset_pt: "/nfs/music-5-test/mert95/encode/"
+    loss_path: "/home/feee/model-5-test/loss/mert-95-s0.txt"
+    output_len: 14162
+    batch_size: 1024
+    dataset: 
+      - {src: "_src.mp3", tgt: "_mert.pt"}
+  
+  mert95_s1:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/mert95/model/s1"  # 指定模型保存路径  
+    device: "cuda:1"
+    dataset_index: "/home/feee/model-5-test/datas/s1_ans_token.txt"
+    dataset_pt: "/nfs/music-5-test/mert95/encode/"
+    loss_path: "/home/feee/model-5-test/loss/mert-95-s1.txt"
+    output_len: 9691
+    batch_size: 1024
+    dataset: 
+      - {src: "_src.mp3", tgt: "_mert.pt"}
+
+  jukebox_s0:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/jukebox/model/s0"  # 指定模型保存路径  
+    device: "cuda:6"
+    dataset_index: "/home/feee/model-5-test/datas/s0_ans_token.txt"
+    loss_path: "/home/feee/model-5-test/loss/jukebox-s0.txt"
+    output_len: 14162
+    batch_size: 1024
+    dataset:
+      - {src: "/nfs/datasets-mp3/", tgt: "/nfs/music-5-test/jukebox/encode/"}
+      - {src: "_src.mp3", tgt: "_src.pkl.jkb"}
+
+  jukebox_s1:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/jukebox/model/s1"  # 指定模型保存路径  
+    device: "cuda:7"
+    dataset_index: "/home/feee/model-5-test/datas/s1_ans_token.txt"
+    loss_path: "/home/feee/model-5-test/loss/jukebox-s1.txt"
+    output_len: 9691
+    batch_size: 1024
+    dataset:
+      - {src: "/nfs/datasets-mp3/", tgt: "/nfs/music-5-test/jukebox/encode/"}
+      - {src: "_src.mp3", tgt: "_src.pkl.jkb"}
+
+  encodec_s0:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/encodec/model/s0"  # 指定模型保存路径  
+    device: "cuda:1"
+    dataset_index: "/home/feee/model-5-test/datas/s0_ans_token.txt"
+    loss_path: "/home/feee/model-5-test/loss/encodec-s0.txt"
+    output_len: 14162
+    batch_size: 1024
+    dataset:
+      - {src: "/nfs/datasets-mp3/", tgt: "/nfs/music-5-test/encodec/encode/"}
+      - {src: "_src.mp3", tgt: "_src.pkl.mean"}
+
+  encodec_s1:
+    num_epochs: 20000  # 设置训练轮数  
+    save_path: "/nfs/music-5-test/encodec/model/s1"  # 指定模型保存路径  
+    device: "cuda:0"
+    dataset_index: "/home/feee/model-5-test/datas/s1_ans_token.txt"
+    loss_path: "/home/feee/model-5-test/loss/encodec-s1.txt"
+    output_len: 9691
+    batch_size: 1024
+    dataset:
+      - {src: "/nfs/datasets-mp3/", tgt: "/nfs/music-5-test/encodec/encode/"}
+      - {src: "_src.mp3", tgt: "_src.pkl.mean"}
+

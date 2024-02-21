@@ -1,0 +1,15 @@
+model:
+  encodec:
+    input_dir: "/nfs/datasets-mp3/"
+    output_dir: "/nfs/music-5-test/encodec/encode/"
+    state_dir: "/nfs/music-5-test/encodec/state/"
+    
+  jukebox:
+    input_dir: "/nfs/datasets-mp3/"
+    output_dir: "/nfs/music-5-test/jukebox/encode/"
+    state_dir: "/nfs/music-5-test/jukebox/state/"
+
+  music2vec:
+    input_dir: "/nfs/datasets-mp3/"
+    output_dir: "/nfs/music-5-test/music2vec/encode/"
+    state_dir: "/nfs/music-5-test/music2vec/state/"

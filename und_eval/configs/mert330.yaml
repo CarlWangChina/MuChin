@@ -1,0 +1,22 @@
+mert_extractor:
+  dist_backend: "nccl"
+  master_addr: "127.0.0.1"
+  master_port: 29500
+  pretrained_model: "m-a-p/MERT-v1-330M"
+  cache_dir:
+  feature_rate: 75
+  feature_dim: 1024
+  mert_num_channels: 1
+  mert_output_layer: 24
+  window_size: 60
+  normalized_loudness: -12.0
+  data_control_files:
+    - "/nfs/datalists/ans_path.jsonl"
+  source_file_postfix: "_src.mp3"
+  target_file_postfix: "_mert.pt"
+  data_loader_num_workers: 2
+  output_path: "/nfs/music-5-test/mert300/encode"
+  states_path: "/nfs/music-5-test/mert300/states"
+  output_file_group_size: 10000
+  duplicate_src_files: false
+  src_dup_path: "/export/data/mp3-picked"
