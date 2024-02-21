@@ -10,3 +10,6 @@ The code for testing five different audio understanding models utilizing a Multi
 The code dedicated to assessing semantic similarity has been archived within the `semantic` directory. This code receives two sets of tags and computes a similarity score as output.
 
 Moreover, the code for evaluating lyric generation is contained in the `gen_eval` folder. It accepts inputs in the form of musical sections, abstract lyrical representations denoted by sequences such as 'ccccR', as well as complete lyrics, in order to calculate the corresponding scores.
+
+![image](https://github.com/CarlWangChina/MuChin/assets/41322045/5dbd4bb4-0923-4304-a275-a33884b8b1d4)
+
