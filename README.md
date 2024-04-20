@@ -1,7 +1,5 @@
 # MuChin
-MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music
-
-Open materials mentioned in paper (https://arxiv.org/pdf/2402.09871.pdf).
+The IJCAI2024 paper “MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music” contains an open source selection of high-quality 1k datasets: In addition to the professional/amateur descriptions primarily discussed in the paper, it also includes structural information such as musical sections and rhymes. We welcome everyone to make extensive use of it and cite it. The audio package is quite large and it will be uploaded to Google Drive later and then linked to our GitHub.
 
 Our dataset has been organized within the `dataset` directory. 
 
