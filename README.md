@@ -1,4 +1,6 @@
 # MuChin
+[Paper Link](https://arxiv.org/abs/2402.09871)  
+
 The manuscript titled "MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music," slated for publication at the International Joint Conference on Artificial Intelligence 2024 (IJCAI 2024), presents a data set meticulously arranged, featuring several hundred thousand instances. Currently, a subset of this dataset comprising 1,000 instances has been made publicly available as open-source within this repository. This benchmark is notable not just for its comprehensive coverage of both amateur and professional descriptions but also includes intricate structural metadata such as musical sections and rhyme structures. We cordially invite scholars and practitioners to employ this resource broadly in their research initiatives and to properly reference its use in their academic publications. 
 
 Due to the large size of the relevant audio files, they have been uploaded to the Google Drive at link "[google drive muchin](https://drive.google.com/drive/folders/1LA-wjkZSCppX3WULJK8Z5jT4pzJYEKzV?usp=drive_link)" for downloading by interested researchers. The mapping relationship between the audio file IDs and the annotated content is saved in this "mp3_id_to_meta_info.xlsx" Excel file.
