@@ -19,9 +19,11 @@ Due to the large size of the relevant audio files, they have been uploaded to th
 The dataset has been organized within the `dataset` directory. The code for testing audio understanding models is located in the `aud_eval` folder. The code for assessing semantic similarity is archived within the `semantic` directory. The code for evaluating lyric generation is contained in the `gen_eval` folder.
 ## Citation
 If you use the MuChin benchmark or dataset in your research, please cite our paper:
-> @article{wang2024muchin,
->  title={MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music},
->  author={Wang, Zihao and Li, Shuyu and Zhang, Tao and Wang, Qi and Yu, Pengfei and Luo, Jinyang and Liu, Yan and Xi, Ming and Zhang, Kejun},
->  journal={arXiv preprint arXiv:2402.09871},
->  year={2024}
-> }
+```
+@article{wang2024muchin,
+  title={MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music},
+  author={Wang, Zihao and Li, Shuyu and Zhang, Tao and Wang, Qi and Yu, Pengfei and Luo, Jinyang and Liu, Yan and Xi, Ming and Zhang, Kejun},
+  journal={arXiv preprint arXiv:2402.09871},
+  year={2024}
+}
+```
