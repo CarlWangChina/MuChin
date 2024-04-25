@@ -2,10 +2,11 @@
 ## News
 - 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024! 
 ## Introduction
-MuChin is the first open-source music description benchmark in Chinese colloquial language. It aims to evaluate the performance of multimodal Large Language Models (LLMs) in understanding and describing music. We introduce the CaiChong Music Annotation Platform (CaiMAP) and the Caichong Music Dataset (CaiMD) to facilitate this evaluation.
+MuChin is the first open-source music description benchmark in Chinese colloquial language. It aims to evaluate the performance of multimodal Large Language Models (LLMs) in understanding and describing music. We introduce the CaiChong Music Annotation Platform (CaiMAP) and the Caichong Music Dataset (CaiMD) to facilitate this evaluation.This benchmark is notable not just for its comprehensive coverage of both amateur and professional descriptions but also includes intricate structural metadata such as musical sections and rhyme structures. We cordially invite scholars and practitioners to employ this resource broadly in their research initiatives and to properly reference its use in their academic publications. 
 ![image](https://github.com/CarlWangChina/MuChin/assets/41322045/5dbd4bb4-0923-4304-a275-a33884b8b1d4)
 ## CaiChong Music Annotation Platform (CaiMAP)
 CaiMAP utilizes an innovative multi-person, multi-stage assurance method to ensure the precision of annotations and alignment with popular semantics. This platform recruits both amateurs and professionals for annotation.
+
 ## Caichong Music Dataset (CaiMD)
 CaiMD is a dataset built using CaiMAP's annotation method. It contains multi-dimensional, high-precision music annotations. We have carefully selected 1,000 high-quality entries from CaiMD to serve as the test set for MuChin.
 ## Usage
