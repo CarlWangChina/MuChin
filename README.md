@@ -8,6 +8,10 @@ To address this need, we present MuChin, the first open-source music description
 ![image](https://github.com/CarlWangChina/MuChin/assets/41322045/5dbd4bb4-0923-4304-a275-a33884b8b1d4)
 ## The CaiChong Music Annotation Platform (CaiMAP)
 We established the CaiChong Music Annotation Platform (CaiMAP) that employs an innovative multi-person, multi-stage assurance method. We recruited both amateurs and professionals to ensure the precision of annotations and alignment with popular semantics.
+<div align="center">
+  <img src="https://github.com/Duoluoluos/MuChin/blob/Dispersion/Anno_Pipe.pdf">
+</div>
+
 ## The Caichong Music Dataset (CaiMD)
 Using the CaiMAP method, we built the Caichong Music Dataset (CaiMD), a dataset with multi-dimensional, high-precision music annotations. We carefully selected 1,000 high-quality entries from CaiMD to serve as the test set for MuChin.
 ## MuChin Dataset
