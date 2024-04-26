@@ -17,11 +17,11 @@ Due to the large size of the relevant audio files, they have been uploaded to th
 We invite scholars and practitioners to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
 
 ## Organization
-Our dataset has been organized within the `dataset` directory. 
+* Our dataset has been organized within the `dataset` directory. 
 
-The code for testing five different audio understanding models utilizing a Multilayer Perceptron (MLP) approach is located in the `aud_eval` folder; this code processes input audio and outputs tags along ten auditory perception dimensions.
+* The code for testing five different audio understanding models utilizing a Multilayer Perceptron (MLP) approach is located in the `aud_eval` folder; this code processes input audio and outputs tags along ten auditory perception dimensions.
 
-The code dedicated to assessing semantic similarity has been archived within the `semantic` directory. This code receives two sets of tags and computes a similarity score as output.
+* The code dedicated to assessing semantic similarity has been archived within the `semantic` directory. This code receives two sets of tags and computes a similarity score as output.
 ## Citation
 If you use the MuChin benchmark or dataset in your research, please cite our paper:
 ```
