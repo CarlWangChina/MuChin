@@ -1,4 +1,5 @@
 # MuChin: A Benchmark for Evaluating Multimodal Language Models on Music Description
+Paper: 
 https://doi.org/10.48550/arXiv.2402.09871
 ## News
 - 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024!
