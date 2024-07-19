@@ -13,9 +13,10 @@ We established the CaiChong Music Annotation Platform (CaiMAP) that employs an i
 
 ## MuChin Dataset
 Currently, a subset of the MuChin dataset comprising 1,000 instances has been made publicly available as open-source within this repository. The dataset features comprehensive coverage of both amateur and professional descriptions, as well as intricate structural metadata such as musical sections and rhyme structures.
-Due to the large size of the relevant audio files, they have been uploaded to the Google Drive at link "[google drive muchin](https://drive.google.com/drive/folders/1LA-wjkZSCppX3WULJK8Z5jT4pzJYEKzV?usp=drive_link)" . The mapping relationship between the audio file IDs and the annotated content is saved in the "mp3_id_to_meta_info.xlsx" Excel file.
 
-We invite scholars and practitioners to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
+We invite scholars and researchers to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
+
+Scholars and researchers are requested to obtain relevant song audio from legal channels and use it for academic purposes only. Song audio cannot be used for commercial model training without the authorization of the copyright holder.
 
 ## Organization
 * Our dataset has been organized within the `dataset` directory. 
@@ -32,4 +33,3 @@ If you use the MuChin benchmark or dataset in your research, please cite our pap
   journal={arXiv preprint arXiv:2402.09871},
   year={2024}
 }
-```
