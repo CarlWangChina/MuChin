@@ -19,4 +19,6 @@ The "question" within the description JSON file of each data are denoted by an I
 `raw_lyric` is in the original LRC format, with timestamp information for each line of lyrics.
 
 ## Acquisition of Music Audio Files
-`meta_info` : Due to the restrictions on the use and copyright of audio playback, we have provided metadata in the files `meta_info` that includes the song names, artist names, album names, and release years (with some information potentially missing) for the annotated songs. 
+`meta_info` : Due to the restrictions on the use and copyright of audio playback, we have provided metadata in the files `meta_info` that includes the song names, artist names, album names, and release years (with some information potentially missing) for the annotated songs. You should acquire the corresponding audio files through legal channels for academic research use. These files can then serve as your test set for evaluations or studies.
+
+Remember to respect copyright laws when obtaining and using music. Unauthorized downloading, sharing, or use of protected work without permission from copyright holders may violate copyright laws. Academic researchers often have access to music databases that provide audio files for research purposes under certain conditions or licenses. Make sure you comply with all licensing agreements and legal requirements when using such resources.
