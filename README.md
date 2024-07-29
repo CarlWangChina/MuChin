@@ -17,6 +17,8 @@ Currently, a subset of the MuChin dataset comprising 1,000 instances has been ma
 We invite scholars and researchers to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
 
 Scholars and researchers are requested to obtain relevant song audio from legal channels and use it for academic purposes only. Song audio cannot be used for commercial model training without the authorization of the copyright holder.
+Audio download link: https://pan.baidu.com/s/1D4xGQhYUwWbpaHyAS71dfw?pwd=1234 
+Extract password: 1234
 
 ## Organization
 * Our dataset has been organized within the `dataset` directory. 
