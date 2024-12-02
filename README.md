@@ -1,6 +1,8 @@
 # MuChin: A Benchmark for Evaluating Multimodal Language Models on Music Description
 Paper: 
-https://doi.org/10.48550/arXiv.2402.09871
+
+https://www.ijcai.org/proceedings/2024/0860.pdf
+
 ## News
 - 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024!
 ## Introduction
@@ -29,9 +31,14 @@ Extract password: 1234
 ## Citation
 If you use the MuChin benchmark or dataset in your research, please cite our paper:
 ```
-@article{wang2024muchin,
-  title={MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music},
-  author={Wang, Zihao and Li, Shuyu and Zhang, Tao and Wang, Qi and Yu, Pengfei and Luo, Jinyang and Liu, Yan and Xi, Ming and Zhang, Kejun},
-  journal={arXiv preprint arXiv:2402.09871},
-  year={2024}
+@inproceedings{wang2024muchin,
+  title     = {MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music},
+  author    = {Wang, Zihao and Li, Shuyu and Zhang, Tao and Wang, Qi and Yu, Pengfei and Luo, Jinyang and Liu, Yan and Xi, Ming and Zhang, Kejun},
+  booktitle = {Proceedings of the Thirty-Third International Joint Conference on
+               Artificial Intelligence},
+  pages     = {7771--7779},
+  year      = {2024},
+  month     = {8},
 }
+
+
