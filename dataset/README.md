@@ -16,8 +16,6 @@ The "question" within the description JSON file of each data are denoted by an I
 
 `tknz_json` provides both the musical segment information and timestamp data for each line of lyrics.
 
-`raw_lyric` is in the original LRC format, with timestamp information for each line of lyrics.
-
 ## Music Audio Files
 
 Currently, a subset of the MuChin dataset comprising 1,000 instances has been made publicly available as open-source within this repository. The dataset features comprehensive coverage of both amateur and professional descriptions, as well as intricate structural metadata such as musical sections and rhyme structures.
