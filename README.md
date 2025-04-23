@@ -1,10 +1,16 @@
 # MuChin: A Benchmark for Evaluating Multimodal Language Models on Music Description
+
+The 1000 audio WAV files for this dataset, along with the corresponding text annotations for professional descriptions, amateur descriptions, musical segment structure, rhymes, and more, have been uploaded to Hugging Face. Feel free to download them.
+
+https://huggingface.co/datasets/karl-wang/MuChin1k/tree/main
+
+## News
+- 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024!
+
 Paper: 
 
 https://www.ijcai.org/proceedings/2024/0860.pdf
 
-## News
-- 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024!
 ## Introduction
 The rapidly evolving multimodal Large Language Models (LLMs) urgently require new benchmarks to uniformly evaluate their performance on understanding and textually describing music. However, existing music description datasets are unable to serve as benchmarks due to semantic gaps between Music Information Retrieval (MIR) algorithms and human understanding, discrepancies between professionals and the public, and low precision of annotations.
 To address this need, we present MuChin, the first open-source music description benchmark in Chinese colloquial language. It is designed to evaluate the performance of multimodal LLMs in understanding and describing music.
