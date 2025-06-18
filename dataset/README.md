@@ -30,4 +30,4 @@ We invite scholars and researchers to employ this resource broadly in their rese
 
 `meta_info` : we have provided metadata in the files `meta_info` that includes the song names, artist names, album names, and release years (with some information potentially missing) for the annotated songs. 
 
-`list-fp.enlarged_matches.jsonl` lists 724 songs from this set that are duplicates of the enlarged 7k version of muchin.
+`list-fp.enlarged_matches.jsonl` lists 724 songs from this set that are duplicates of the enlarged 6066 version of muchin.
