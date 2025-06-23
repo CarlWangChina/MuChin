@@ -17,7 +17,9 @@ The "question" within the description JSON file of each data are denoted by an I
  
 `tknz_json` provides both the musical segment information and timestamp data for each line of lyrics. The timestamps in tknz_json are incorrect, but the musical segments are correct (after manually annotating the musical segments, we hoped to match timestamps from raw_lyric, but found that we couldn't match them because during the manual annotation of musical segments, many musical phrases were manually merged or split, leading to an inconsistent number of lines). If training requires timestamps, it's better to directly use the timestamps from the `raw_lyric`.
 
-`raw_lyric`provides the lyric text and timestamp text. Compared to tknz_json, the timestamps here are correct (timestamps exported from the KTV file), but the timestamps in raw_lyric also have some time offset issues not caused by this work. Timestamps are not the focus of this dataset; the focus of the manual annotation for this dataset is on the following four aspects: colloquial description, professional description, musical segment labels, and rhymes.
+`raw_lyric`provides the lyric text and timestamp text. Compared to tknz_json, the timestamps here are correct (timestamps exported from the KTV file), but the timestamps in raw_lyric also have some time offset issues not caused by this work. Timestamps are not the focus of this dataset; 
+
+the focus of the manual annotation for this dataset is on the following four aspects: colloquial description, professional description, musical segment labels, and rhymes.
 
 
 ## Music Audio Files
