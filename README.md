@@ -5,6 +5,7 @@ The 1000 audio WAV files for this dataset, along with the corresponding text ann
 https://huggingface.co/datasets/karl-wang/MuChin1k/tree/main
 
 ## News
+- We have open-sourced an expanded version with 6066 songs. Please refer to this link: https://github.com/CarlWangChina/MuChin-V2-6066
 - 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024!
 
 Paper: 
