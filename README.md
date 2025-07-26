@@ -6,11 +6,7 @@ https://huggingface.co/datasets/karl-wang/MuChin1k/tree/main
 
 ## News
 - We have open-sourced an expanded version with 6066 songs. Please refer to this link: https://github.com/CarlWangChina/MuChin-V2-6066
-- 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024!
-
-Paper: 
-
-https://www.ijcai.org/proceedings/2024/0860.pdf
+- 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024! Paper: https://www.ijcai.org/proceedings/2024/0860.pdf
 
 ## Introduction
 The rapidly evolving multimodal Large Language Models (LLMs) urgently require new benchmarks to uniformly evaluate their performance on understanding and textually describing music. However, existing music description datasets are unable to serve as benchmarks due to semantic gaps between Music Information Retrieval (MIR) algorithms and human understanding, discrepancies between professionals and the public, and low precision of annotations.
