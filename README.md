@@ -1,18 +1,29 @@
-# MuChin: A Benchmark for Evaluating Multimodal Language Models on Music Description
+# MuChinV1: A Benchmark for Evaluating Multimodal Language Models on Music Description
 
 ## News
-- We have open-sourced an expanded version with 6066 songs. Please refer to this link: https://github.com/CarlWangChina/MuChin-V2-6066
-- 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024! Paper: https://www.ijcai.org/proceedings/2024/0860.pdf
+- We have open-sourced an expanded version MuChinV2 with 6066 songs. Please refer to this link: [https://github.com/CarlWangChina/MuChin-V2-6066](https://github.com/CarlWangChina/MuChin-V2-6066))
+- 04/2024 We are excited to announce that our paper on MuChin has been accepted by IJCAI 2024! Paper: [https://www.ijcai.org/proceedings/2024/0860.pdf](https://www.ijcai.org/proceedings/2024/0860.pdf)
 
-## Audio data
-The 1000 audio WAV files for this dataset, along with the corresponding text annotations for professional descriptions, amateur descriptions, musical segment structure, rhymes, and more, have been uploaded to Hugging Face. Feel free to download them.
+## V1 Audio data
+The 1000 audio WAV files for this dataset, along with the corresponding text annotations for professional descriptions, amateur descriptions, musical segment structure, rhymes, and more, have been uploaded to Hugging Face. Feel free to download them. Scholars and researchers are requested to obtain relevant song audio from legal channels and use it for academic purposes only. Song audio cannot be used for commercial model training without the authorization of the copyright holder.
 
-https://huggingface.co/datasets/karl-wang/MuChin1k/tree/main
+-   **MuChin 6066 (Full Dataset)**
+    The second, larger release contains 6,066 unique songs and all associated annotations.
+    -   **Audio + Annotations (`.tar.bz2`)**:
+        -   **Github:** [https://github.com/CarlWangChina/MuChin-V2-6066](https://github.com/CarlWangChina/MuChin-V2-6066))
+        -   **Hugging Face:** [https://huggingface.co/datasets/karl-wang/MuChin-v2-6066]
+        -   **Baidu Netdisk:** `pan.baidu.com/s/1GP5p3Ip_j0MraAcA52gIuQ` (Password: `68c1`)
+    -   **Database File (Metadata & Annotations, No Audio)**:
+        -   **Hugging Face:** `huggingface.co/datasets/karl-wang/MuChin-v2-6066`
 
-Scholars and researchers are requested to obtain relevant song audio from legal channels and use it for academic purposes only. Song audio cannot be used for commercial model training without the authorization of the copyright holder.
 
-Audio download link: https://pan.baidu.com/s/1D4xGQhYUwWbpaHyAS71dfw?pwd=1234 
-Extract password: 1234
+-   **MuChin 1000**
+    This initial set contains 1,000 audio tracks with detailed text annotations.
+    -   **Github:** `https://github.com/CarlWangChina/MuChin`
+    -   **Hugging Face:** `huggingface.co/datasets/karl-wang/MuChin1k`
+    -   **Baidu Netdisk:** `pan.baidu.com/s/1D4xGQhYUwWbpaHyAS71dfw` (Password: `1234`)
+
+
 
 ## Citation
 We invite scholars and researchers to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
