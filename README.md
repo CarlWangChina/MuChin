@@ -10,20 +10,18 @@ The 1000 audio WAV files for this dataset, along with the corresponding text ann
 -   **MuChin 6066 (Full Dataset)**
     The second, larger release contains 6,066 unique songs and all associated annotations.
     -   **Audio + Annotations (`.tar.bz2`)**:
-        -   **Github:** [https://github.com/CarlWangChina/MuChin-V2-6066](https://github.com/CarlWangChina/MuChin-V2-6066))
-        -   **Hugging Face:** [https://huggingface.co/datasets/karl-wang/MuChin-v2-6066]
-        -   **Baidu Netdisk:** `pan.baidu.com/s/1GP5p3Ip_j0MraAcA52gIuQ` (Password: `68c1`)
-    -   **Database File (Metadata & Annotations, No Audio)**:
-        -   **Hugging Face:** `huggingface.co/datasets/karl-wang/MuChin-v2-6066`
+        -   **Github:** [https://github.com/CarlWangChina/MuChin-V2-6066](https://github.com/CarlWangChina/MuChin-V2-6066)
+        -   **Hugging Face:** [huggingface.co/datasets/karl-wang/MuChin-v2-6066](https://huggingface.co/datasets/karl-wang/MuChin-v2-6066)
+        -   **Baidu Netdisk:** [pan.baidu.com/s/1GP5p3Ip_j0MraAcA52gIuQ](https://pan.baidu.com/s/1GP5p3Ip_j0MraAcA52gIuQ) (Password: `68c1`)
+    -   **Database File**:
+        -   **Hugging Face:** [huggingface.co/datasets/karl-wang/MuChin-v2-6066](https://huggingface.co/datasets/karl-wang/MuChin-v2-6066)
 
 
 -   **MuChin 1000**
     This initial set contains 1,000 audio tracks with detailed text annotations.
-    -   **Github:** `https://github.com/CarlWangChina/MuChin`
-    -   **Hugging Face:** `huggingface.co/datasets/karl-wang/MuChin1k`
-    -   **Baidu Netdisk:** `pan.baidu.com/s/1D4xGQhYUwWbpaHyAS71dfw` (Password: `1234`)
-
-
+    -   **Github:** [https://github.com/CarlWangChina/MuChin](https://github.com/CarlWangChina/MuChin)
+    -   **Hugging Face:** [huggingface.co/datasets/karl-wang/MuChin1k](https://huggingface.co/datasets/karl-wang/MuChin1k)
+    -   **Baidu Netdisk:** [pan.baidu.com/s/1D4xGQhYUwWbpaHyAS71dfw](https://pan.baidu.com/s/1D4xGQhYUwWbpaHyAS71dfw) (Password: `1234`)
 
 ## Citation
 We invite scholars and researchers to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
