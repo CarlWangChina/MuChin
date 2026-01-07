@@ -17,7 +17,8 @@ Extract password: 1234
 ## Citation
 We invite scholars and researchers to employ this resource broadly in their research initiatives. Proper reference to its use in academic publications is appreciated.
 If you use the MuChin benchmark or dataset in your research, please cite our paper:
-```
+#### BibTeX
+```bibtex
 @inproceedings{wang2024muchin,
   title     = {MuChin: A Chinese Colloquial Description Benchmark for Evaluating Language Models in the Field of Music},
   author    = {Wang, Zihao and Li, Shuyu and Zhang, Tao and Wang, Qi and Yu, Pengfei and Luo, Jinyang and Liu, Yan and Xi, Ming and Zhang, Kejun},
@@ -27,6 +28,7 @@ If you use the MuChin benchmark or dataset in your research, please cite our pap
   year      = {2024},
   month     = {8},
 }
+``` 
 
 ## Introduction
 The rapidly evolving multimodal Large Language Models (LLMs) urgently require new benchmarks to uniformly evaluate their performance on understanding and textually describing music. However, existing music description datasets are unable to serve as benchmarks due to semantic gaps between Music Information Retrieval (MIR) algorithms and human understanding, discrepancies between professionals and the public, and low precision of annotations.
